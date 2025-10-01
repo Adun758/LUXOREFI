@@ -1,0 +1,43 @@
+.Team-page .navbar a{
+color: black !important;
+}
+.Team-page .navbar-logo{
+    filter: none !important;
+}
+.Team-page{
+    margin-top: 120px;
+}
+.team-text{
+    font-size: 23px;
+    font-family: sans-seri;
+}
+.team-text a{
+    font-size: 23pt;
+}
+.Teams section{
+    display: flex;
+}
+.Team {
+  display: flex;
+  margin-left: 100px;
+  justify-content: center !important;
+  gap: 20px;       /* space between items */
+  justify-content: center; /* or space-between / flex-start */
+}
+
+.member{
+    text-align: center;
+    font-size: 23px;
+    font-family:sans-seri ;
+}
+
+
+@media(max-width:600px){
+    .Team{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Team{
+        margin: 33px;
+    }
+}

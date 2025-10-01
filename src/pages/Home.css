@@ -1,0 +1,661 @@
+.home-hero-svg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+/* Container for the form */
+.hotel-booking-form {
+  /* display: flex; */
+  flex-direction: column;
+  gap: 15px;
+
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+/* Individual field wrapper */
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+.field label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Datepicker input style */
+.datepicker-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Select dropdown style */
+.select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Submit button style */
+.submit-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #ffc107;
+}
+
+
+    /* about btn */
+    .about_btn{
+   border-radius:5px;
+    padding: 22px 90px;
+    margin-left: 42px;
+   border: 1px solid gainsboro;
+        border: none;
+    padding-bottom: -20px;
+    padding-top: 10px;
+     background-color:rgb(213, 180, 117);
+     color: #000;
+      text-decoration: none;
+    }
+    .about_btn a{
+        text-decoration: none;
+        color: #000 !important;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .about_btn:hover{
+        /* background-color:rgb(213, 180, 117); */
+        cursor: pointer;
+        color: #fff;
+        transition: 4S;
+    }
+    .about{
+       display: flex;
+      gap: 20px;
+       justify-content: center;
+        align-items: center;
+    padding: 0 32px !important;
+    /* margin:  100px 120px; */
+
+    }
+    .luro_text a{
+      margin-top: 8px !important;
+    }
+    .about h1{
+       font-size: 62px;
+    line-height: 1.4;
+    margin-top: 22px;
+        
+    }
+    .about_hotel{
+     font-size:28px;
+   /* width: 50vw; */
+    margin-left: 10px;
+   line-height: 1.5;
+    }
+    .welcome{
+        line-height: 1.2;
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+   .aboutimg{
+     margin-top: 10px;
+    height: 100VH;
+     border-radius: 20px; 
+    /* margin:  0 23px ; */
+    
+   }
+
+   /* explore rooms */
+   .suites_heading{
+    display:flex;
+    align-items: center !important;
+    justify-content: space-between;
+    padding: 0 122px;
+    margin-bottom: 30px;
+    margin-top: 23px;
+   }
+   .suites_heading h1{
+    font-size: 22px;
+    font-family: cursive;
+    color: #000;
+    font-weight: 600;
+   }
+
+   .suites_btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    color: #000;
+    text-decoration: none;
+    
+   }
+   .suites_btn:hover{
+    cursor: pointer;
+    background-color:#D5B475;
+    color: #fff;
+   }
+   .suites_btn a{
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 600; 
+   }
+      
+   .suites_btn:hover{
+        background-color:rgb(213, 180, 117);
+    transition: 4s;
+   
+   }
+   .suites_text{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 0 125px;
+   }
+
+      /* rooms */
+      .roomimg1{
+        border-radius: 22px;
+      }
+  
+      .roomimg1:hover {
+        transform: scale(1);
+        /* transition: 2s;
+          transform: scale(1);
+      opacity: 0.7; 
+      cursor: pointer; */
+      } 
+        .round-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color:black; /* semi-transparent white */
+      border: none;
+      border-radius: 50%;
+      padding: 15px 18px;
+      font-size: 16px;
+      cursor: pointer;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    
+    /* .image-container:hover .round-button {
+      opacity: 1;
+    } */
+
+  
+    .suites{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      }
+      .room1_text h1:hover{
+        color: #000;
+        text-decoration: underline;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .room1_text a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 300;
+      }
+      .room_icon{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10px;
+        color: #000;
+        font-weight: 600;
+      }
+  .room1_text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+  }
+  .room1_text h1{
+      font-size: 27px;
+      font-family:cursive;
+  } 
+  .luro_text h1{
+    font-size: 52px;
+    font-family: sans-serif;
+  }
+
+
+    /* facilites */
+    .facilites{
+      text-align: center !important;
+      margin-top: 90px;
+      font-size: 23px;
+      font-family: sans-seri;
+      }
+      .facility_one{
+        background-color: #0E1825;
+        border-radius: 7px;
+        /* padding: 33px 95px; */
+        padding: 60px 65px;
+        /* padding: 20px 10px; */
+      }
+      .facility{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        /* padding: 40px; */
+        padding:0 60pt 0  !important;
+        padding-top: 0 !important;
+        gap: 10px;
+        justify-content: center;
+      }
+      .e-facility{
+        display: flex;
+        gap: 44px;
+        align-items: center;
+        justify-content: center;
+      }
+      .e-img{
+        margin-top: 70px;
+        border-radius: 9px;
+      }
+      .e-text{
+        font-size: 23px;
+        line-height: 1.5;
+        font-family: sans-seri;
+      }
+      .e-text li{
+        list-style: none;
+      }
+
+.carousel-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.splide__slide {
+  color: white ;
+  background:#0E1825;
+  margin-top: 32px !important;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px 120px;
+  font-size: 18px;
+  /* padding:50px 10px; */
+  /* padding: 90px 50px; */
+  font-weight: bold;
+  /* color: #333; */
+  text-align: center;
+}
+.testimonial{
+  font-size: 24px;
+  margin-top: 60px;
+  font-size: 14px;
+  font-family: sans-seri;
+}
+.test-box{
+  margin-top: 29px;
+  margin-left: 6px;
+}
+.testimonial p{
+  margin-top: 15px;
+}
+.test-p{
+  margin-top: 12px;
+}
+
+/* gallery */
+.gallery{
+  text-align: center;
+  margin-top: 90px;
+}
+.gallery h1 {
+  font-size: 43px;
+  font-family: sans-serif;
+}
+.gallery p{
+  font-size: 22px;
+  font-family: sans-seri;
+  margin-top: 12px;
+  font-style: italic;
+}
+.gallery-img{
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+
+}
+.gallery-img img{
+  border-radius: 12px;
+ 
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+              /* ////////// responsiveness///////////// */
+      @media(max-width:500px){
+          video{
+                /* height: 160vh !important; */
+              }
+        .luro_text{
+          margin-top: 200px !important;
+          font-size: 23px !important;
+              }
+              .luro_svg{
+                display: none;
+                margin-top: 212px !important;
+              }
+            .hotel-booking-form {
+              display: flex  !important;
+              flex-direction: column !important;
+              
+            }
+            .luro_about{
+              margin-top: -90px !important;
+            }
+     .field {
+      display: flex !important;
+      flex-wrap: wrap !important;
+          }
+    
+      .field {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        margin-bottom: 26px !important;
+        font-weight: bold;  
+        width: 80% !important;
+        margin-left: 0 !important;
+               }
+            .datepicker-input {
+            width:99% !important;
+          }
+          form{
+            margin-top: 4px !important;
+            width: 70vw !important;
+            padding: 0 ;
+          }
+            .aboutimg{
+            width: 80vw;
+            height: 60vh;
+          
+           margin-top: 50px !important;
+
+          }
+          .about{
+            display: flex !important;
+            margin: 12px !important;
+            flex-wrap: wrap !important;
+          }
+          .luro_text h1{
+            font-size: 26px !important;
+            margin-left:0 !important;
+          }
+          .luro_text p{
+            font-size: 16px !important;
+            margin: 0 !important;
+          }
+          .about_btn {
+            display: none;  
+          }
+          .about_hotel{
+            width: 100vw ;
+            font-size: 12px !important;
+          }
+          /* suites text */
+          .suites_text{
+            width: 50vw;
+            margin-left: -90px !important;
+          }
+          .suites_text p{
+            width: 100vw;
+          }
+          .suites_heading{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 12px;
+            padding: 10px;
+          }
+          .suites_heading h1{
+            
+            margin-left:0  !important;
+            font-size: 20px;
+            padding: 0 !important;
+          }
+          .suites_heading button{
+            margin-top: 20px;
+          }
+
+          /* rooms */
+          .suites{
+            display: flex;
+            margin: 0;
+            flex-wrap: wrap;
+          }
+          .roomimg1{
+            margin: 12px;
+            width: 88vw;
+          }
+          .room1_text{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+          }
+          .room1_text h1{
+            width: 100vw !important;
+            font-size: 22px;
+          }
+          .room_icon{
+           margin-left: 32px;
+            display: flex;
+            flex-wrap: wrap;
+          }
+
+          /* facility */
+          .facility{
+            display:grid !important;  
+            grid-template-columns: repeat(1,1fr) !important;
+            justify-content: center !important;
+            padding: 10px !important ;
+            margin-left: 30px;
+        
+          }
+          .facility_one{
+            padding: 20px 10px; 
+            width: 80vw !important;
+          }
+          .e-facility{
+            display: flex;
+            flex-wrap: wrap;
+          }
+          /* swiper */
+          .splide__slide{
+            height: 300px 100px !important;
+            font-size: 16px !important;
+            padding: 50px 20px !important;
+          }
+          .test-flex{
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: center !important;
+            text-align: center !important;
+          }
+          .gallery-img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center !important;
+            /* width: 10vw !important; */
+            padding:0 20px !important;
+          }
+          .gallery-img img{
+            width: 90vw !important;
+            margin: 12px !important;
+          }
+        }
+
+        @media(max-width:1000px) and (min-width:601px){
+                video{    
+                 height: 180vh !important;
+                 background-color: none !important;
+                }
+                .luro_text{
+                font-size: 23px !important;
+              }
+              .luro_svg{
+                margin-top: 220px !important;
+              }
+            .hotel-booking-form {
+              display: flex  !important;
+              flex-direction: column !important;
+              /* gap: 10px; */
+              /* flex-wrap: wrap !important; */
+            }
+             .field {
+            display: flex !important;
+            flex-wrap: wrap !important;
+           }
+    
+          .field {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            justify-content: center !important;
+            margin-bottom: 4px !important;
+            font-weight: bold;  
+            width: 80% !important;
+            margin-left: 0 !important;
+              }
+            .datepicker-input {
+              width:99% !important;
+           }
+            form{
+               width: 70vw !important;
+            }
+            .aboutimg{
+            width: 80vw;
+            height: 60vh;
+             margin-top: 50px !important;
+
+          }
+          .about{
+            display: flex !important;
+            margin: 12px !important;
+            flex-wrap: wrap !important;
+          }
+          .luro_text h1{
+            font-size: 26px !important;
+            margin-left:70px !important;
+          }
+          .luro_text p{
+            font-size: 16px !important;
+            width: 90vw;
+            margin-left: 70px !important;
+          }
+          .about_btn{
+            margin: 12px !important;
+            margin-left:79px !important;
+       }
+       .about_hotel{
+        width: 100vw ;
+        font-size: 12px !important;
+       }
+          /* suites text */
+          .suites_text{
+            width: 50vw;
+            margin-left: -90px !important;
+          }
+          .suites_heading{
+            display: flex;
+            gap: 60px;
+            flex-wrap: wrap;
+            align-items: center !important;
+            justify-content: space-between !important;
+            margin: 12px;
+            padding: 10px;
+          }
+          .suites_heading h1{
+           margin-left:0  !important;
+            font-size: 20px;
+            padding: 0 !important;
+          }
+          .suites_heading button{
+            margin-top: 20px;
+          }
+
+          /* rooms */
+          .suites{
+            display: flex;
+            margin: 0;
+            flex-wrap: wrap;
+          }
+          .roomimg1{
+            margin: 12px;
+            width: 88vw;
+          }
+          .room1_text h1{
+            width: 40vw;
+            font-size: 22px;
+          }
+          .facility{
+            display: grid;
+            grid-template-columns: repeat(2,1fr) !important;
+            padding: 4px !important;
+            align-items: center;
+            justify-content: center;
+            /* width: 100vw; */
+          }
+          .e-facility{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+          }
+          .gallery-img img{
+            width: 45vw !important;
+            margin: 12px !important;
+          }
+        }

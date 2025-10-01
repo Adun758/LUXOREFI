@@ -1,0 +1,51 @@
+{
+  "section1": [
+    {
+      "id": 1,
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/67879c0a3f0ea1c622112eec_Team%20Image.jpg",
+      "title": "Sophia Jackson",
+      "desc": "Assistant Manager"
+    },
+    {
+      "id": 2,
+      "category": "",
+      "date": "",
+      "title": "Nathaniel Miller",
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/6787a28e6e8383c2fedd8a8f_Team%20Image%20(5).jpg",
+      "desc":"Security Manager"
+      
+    },
+    {
+      "id": 3,
+      "category": "",
+      "date": "",
+      "title": "Oliva Adamas",
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/6787a28e35492379bd4523fd_Team%20Image%20(4).jpg",
+      "desc": "Sales Manager"
+    }
+  ],
+  "section2": [
+    {
+      "id": 1,
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/6787a28e9edd11ae2ddc930c_Team%20Image%20(3).jpg",
+      "title": "Amelia Shofiya",
+      "desc": "Relations Manager"
+    },
+    {
+      "id": 2,
+      "category": "",
+      "date": "",
+      "title": "David Branson",
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/6787a28e0142b5601b108236_Team%20Image%20(2).jpg",
+      "desc": "Executive Chef"
+    },
+    {
+      "id": 3,
+      "category": "",
+      "date": "",
+      "title": "Michel Jackson",
+      "image": "https://cdn.prod.website-files.com/6784f8a1cbbb1f7bbe6ce52a/6787a28eadc1033730f84027_Team%20Image%20(1).jpg",
+      "desc": "Spa Director"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.faq-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family:  sans-seri;
+}
+
+.faq-section h2 {
+  text-align: left;
+  font-size: 58px;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 26px;
+
+}
+
+.faq-answer {
+  margin-top: 10px;
+  color: #333;
+  font-size: 25px;
+}

@@ -1,0 +1,74 @@
+{
+  "section1": [
+    {
+      "id": 1,
+      "category": "Luxury",
+      "date": "Jan 15, 2025",
+      "title": "How to Plan the Perfect Romantic Getaway at a Luxury Hotel",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/6787887b634290ac292cf869_Blog%20Thumbnail%20Image%20(1).jpg",
+      "link": "/Blog/RomanticGateway"
+    },
+    {
+      "id": 2,
+      "category": "Wellness",
+      "date": "Jan 15, 2024",
+      "title": "Explore the Exclusive Perk Private Villas, Spa Retreats, and Unique Excursions",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/6787885c6e66d5a79a6a10bf_Blog%20Thumbnail%20Image%20(2).jpg",
+      "link": "/Blog/ExplorePrivate"
+    }
+  ],
+  "section2": [
+    {
+      "id": 1,
+      "category": "Hotels",
+      "date": "Jan 15, 2025",
+      "title": "Luxury Hotels Around the World:Top Picks For 2024",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/6787883ca4646056b5d545fc_Blog%20Thumbnail%20Image%20(3).jpg",
+      "link": "/Blog/LuxuryHotel"
+    },
+    {
+      "id": 2,
+      "category": "Eco-Friendly",
+      "date": "Feb 15, 2025",
+      "title": "Family Eco-Friendly Luxury Hotels What to Look For Your Needs",
+        "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/678788201f62f865deaaa0f4_Blog%20Thumbnail%20Image%20(4).jpg",
+      "link": "/Blog/EcoFriendly"
+    }
+  ],
+  "section3": [
+    {
+      "id": 1,
+      "category": "Wellness",
+      "date": "Jan 15, 2025",
+      "title": "Luxury Hotels With Private Villas and The Best Swimming Pools",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/678787f232500937964fabe7_Blog%20Thumbnail%20Image%20(5).jpg",
+      "link": "/Blog/LuxuryPool"
+    },
+    {
+      "id": 2,
+      "category": "Hotels",
+      "date": "Feb 15, 2025",
+      "title": "How to Avoid Fees in the New Hotel Bookings  ",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/678787d0c5041ea5e8789645_Blog%20Thumbnail%20Image%20(6).jpg",
+      "link": "/Blog/HotelBook"
+    }
+  ],
+   "section4": [
+    {
+      "id": 1,
+      "category": "Eco-Friendly",
+      "date": "Jan 15, 2025",
+      "title": "How To Choose Eco-Friendly Hotel Room For you ",
+      "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/678787adc5eb228b49a25736_Blog%20Thumbnail%20Image.jpg",
+      "link": "/Blog/HotelRoom"
+    },
+    {
+      "id": 2,
+      "category": "Luxury",
+      "date": "Feb 15, 2025",
+      "title": "How to Book a luxury Hotel For Business Travel",
+          "image": "https://cdn.prod.website-files.com/67873acd962a541b51fc1df9/678786e53f5ed22525c0294d_Blog%20Thumbnail%20Image%20(7).jpg",
+      "link": "/Blog/HotelTravel"
+    }
+  ]
+}

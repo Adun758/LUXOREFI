@@ -1,0 +1,103 @@
+/* Navbar.css */
+.navbar {
+  align-items: center;
+  padding: 20px 30px;
+   color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 10;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffd700;
+  letter-spacing: 2px;
+  flex: none;
+  border-bottom: -109px !important;
+  text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks.left {
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.navLinks.right {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.navLinks.left, .navLinks.right {
+  align-items: center;
+}
+
+.navItem a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+
+
+@media(max-width:1000px){
+  .navbar{
+    width: 90vw !important;
+  }
+  
+}
+@media (max-width: 768px) {
+  .navbar {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+  .navLinks {
+    /* flex-direction: column; */
+    gap: 15px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+}
+
+.home-hero-video-bg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-hero-video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}

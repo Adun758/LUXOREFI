@@ -1,0 +1,23 @@
+ .room-page .navbar a {
+  color: #000 !important;
+}
+
+    .room-page .navbar-logo {
+      filter: none !important; 
+    }
+.hello{
+    font-size: 100px;
+}
+.room{
+    margin-top: 130px;
+    text-align: center;
+}
+.room h1{
+    font-style: italic;
+    font-size: 56px;
+    font-family: seri;
+}
+.room p{
+    font-family: sans-seri;
+    font-size: 23px;
+}
