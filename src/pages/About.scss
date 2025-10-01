@@ -496,7 +496,7 @@
           }
             }
 
-  @media(max-width:1024px){
+  @media(max-width:1024px) and(min-width:481px){
     .team_members{
       display: flex !important;
       flex-wrap: wrap;
@@ -583,9 +583,9 @@
 
   }
 
-  @media(max-width:1024px){
+  @media(max-width:1024px) and(min-width:481px){
     .about-page{
-      height: 220vh;
+      height: 250vh !important;
     }
   }
  @media(max-width:768px){
