@@ -19,12 +19,10 @@ color: black !important;
 }
 .Team {
   display: flex;
-  /* margin-left: 100px; */
   justify-content: center !important;
-  gap: 20px;       /* space between items */
-  justify-content: center; /* or space-between / flex-start */
+  gap: 20px;     
+  justify-content: center; 
 }
-
 .member{
     text-align: center;
     font-size: 23px;
@@ -40,4 +38,13 @@ color: black !important;
     .Team{
         margin: 33px;
     }
+}
+@media(max-width:1000px) and (min-width:601px){
+    .Team{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Team img{
+        width: 80vw;
+}
 }
