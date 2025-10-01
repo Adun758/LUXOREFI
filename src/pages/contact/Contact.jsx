@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Contact.css";
+import "./contact.css";
 import { useEffect  } from "react";
 import Navbar from "../../components/Navbar";    
 import Faq from "../../features/Faq";

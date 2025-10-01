@@ -63,7 +63,7 @@ function Home() {
                     <img src={svg} alt="Logo" style={{ width: 120 , marginTop:190}} className="luro_svg" />
                 </div>
                 
-                <h1 style={{ fontSize: '3rem', marginBottom: 16, fontSize: 79 , marginTop:'30px', fontFamily:'cursi' }} className="luro_text">Luxury Living, One <br />Booking Away</h1>
+                <h1 style={{ fontSize: '5rem', marginBottom: 16,   marginTop:'30px', fontFamily:'cursive' }} className="luro_text">Luxury Living, One <br />Booking Away</h1>
                 <button style={{
                     backgroundColor: 'rgb(213, 180, 117)',
                     color: '#000',
