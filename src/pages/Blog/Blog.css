@@ -22,7 +22,7 @@
 }
 .log{
   display: flex;
-  margin-left: -80px !important;
+  justify-content: center;
   
 }
 /* .blogs{
