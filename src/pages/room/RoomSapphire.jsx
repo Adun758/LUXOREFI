@@ -56,7 +56,6 @@ function RoomDetails() {
       info2:"2 Beds",
       info3:"3 sleeps",
       info4:"1 Bathroom",
-      price:"$300USD per Night",
     },
      PearlOrchid:{
       title: "Pearl Orchid",
