@@ -48,3 +48,11 @@ color: black !important;
         width: 80vw;
 }
 }
+
+
+
+@media(max-width:12800px) and (min-width:1001px){
+    .Team img{
+        width: 30vw;
+}
+}

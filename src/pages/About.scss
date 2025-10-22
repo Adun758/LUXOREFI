@@ -496,7 +496,7 @@
           }
             }
 
-  @media(max-width:1024px) and(min-width:481px){
+@media(max-width:1024px) and (min-width:481px){
     .team_members{
       display: flex !important;
       flex-wrap: wrap;
@@ -583,7 +583,7 @@
 
   }
 
-  @media(max-width:1024px) and(min-width:481px){
+  @media(max-width:1024px) and (min-width:481px){
     .about-page{
       height: 250vh !important;
     }
@@ -595,5 +595,19 @@
  }
 
   
+ @media(max-width:1280px) and (min-width:1001px){
+    .story{
+     display: none;
+    }
+    .about-page{
+      height: 115vh !important;
+    }
+    .team_member img{
+      width:24vw !important;
+    }
+    .form1{
+      display: none;
+    }
+ }
 
   

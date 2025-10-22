@@ -659,3 +659,34 @@
             margin: 12px !important;
           }
         }
+
+        @media(max-width:1280px) and (min-width:1001px){
+          .luro_text{
+            width:100vw;
+          }
+          .aboutimg{
+            width: 570px;
+          }
+          .luro_text h1{
+            font-size: 42px;
+          }
+          .luro_text p{
+            font-size: 22px;
+          }
+          .about_btn{
+            margin-top: 33px;
+          }
+          .roomimg1,.roomimg2{
+            width: 550px;
+          }
+          .gallery-img img{
+            width:600px;
+
+          }
+          .blog1 img{
+            width: 600px;
+          }
+          .video{
+            height: 100vh;
+          }
+        }

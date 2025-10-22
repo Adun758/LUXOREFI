@@ -157,7 +157,7 @@ function Home() {
             </div>
         </div>
 
-           <div className="luro_about " >
+     <div className="luro_about " >
          <div className="about " style={{margin:' 55px '}}>
             {/* luro about */}
         <div className="luro_text">
